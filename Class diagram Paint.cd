@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Paint.BaseShape">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAEAAQCQAAAAQAAAAAAAIAAAABgABAAAAA=</HashCode>
+      <FileName>BaseShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.MasterShape">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MasterShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.Ornament">
+    <Position X="10.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAgACAAAAIQCAACAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Ornament.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.Decorator">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Decorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.Visitors.VisitorDelete">
+    <Position X="8.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAACAEAAAgEAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitors\VisitorDelete.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Paint.Visitors.VisitorDraw">
+    <Position X="13.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAACAEAAAgEAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitors\VisitorDraw.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Paint.Visitors.VisitorMove">
+    <Position X="10.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAQAAAAAAAAAAEAAAgEAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitors\VisitorMove.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Paint.Visitors.VisitorResize">
+    <Position X="12" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAEAAAgEAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitors\VisitorResize.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.17" />
+  </Class>
+  <Class Name="Paint.Commands.Draw">
+    <Position X="2.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQAAAAAAAACAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Commands\Draw.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Paint.Commands.MakeGroup">
+    <Position X="0.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQIAAAAAEAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\MakeGroup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Paint.Commands.Move">
+    <Position X="6.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQAAAAAIAAAAAAAAAABAAAAAAAABAA=</HashCode>
+      <FileName>Commands\Move.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Paint.Commands.Resize">
+    <Position X="4.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQAAAAAAAACAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Commands\Resize.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Paint.ActionHandler">
+    <Position X="4.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAgAABAACAAAAAAABBAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>ActionHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.MainWindow">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Paint.MainWindow.Modes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MainWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>SQAABEAQAgAABAgBAAACgAEIARBBKAAABBAARgAEAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Paint.Strategies.EllipseStrategy">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAhAAAAAAAAAAABEAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strategies\EllipseStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="1.192" />
+  </Class>
+  <Class Name="Paint.Strategies.RectangleStrategy">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAhAAAQAAAAAAABEAAAAAAAAAAAQAAAAAAAAg=</HashCode>
+      <FileName>Strategies\RectangleStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Paint.Composite.Tree">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAAAAgAAAAAAQCAAAABQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tree\Tree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Paint.Visitors.IVisitor">
+    <Position X="10.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAEAAAgEAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitors\IVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Paint.Commands.ICommand">
+    <Position X="0.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ICommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Paint.Strategies.IStrategy">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAgAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strategies\IStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
